@@ -12,12 +12,13 @@
 ## ファイル構成と読み込み順序
 
 ```
-profile/me.md       身体データ・制約・トレ歴（固定情報）
-profile/goals.md    目標・優先順位・マイルストーン
-profile/gym.md      ジムの設備・マシンラインナップ
-status/current.md   部位ごとの最終トレ日・RPEトレンド・怪我メモ（定量データ）
-status/exercises.md 全種目の進捗・フォーム評価・次回意識事項
-logs/               日次ログ（YYYY-MM/YYYY-MM-DD.md）
+profile/me.md         身体データ・制約・トレ歴（固定情報）
+profile/goals.md      目標・優先順位・マイルストーン
+profile/gym.md        ジムの設備・マシンラインナップ
+status/current.md     部位ごとの最終トレ日・RPEトレンド・怪我メモ（定量データ）
+status/exercises.md   全種目の進捗・フォーム評価・次回意識事項
+next-session.md       次回セッションの予定メニュー
+logs/                 日次ログ（YYYY-MM/YYYY-MM-DD.md）
 ```
 
 スキル実行時は上記の順で読み込む。`logs/` は直近3件を必ず参照する（月またぎも考慮する）。
